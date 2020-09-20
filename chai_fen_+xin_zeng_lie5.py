@@ -7,7 +7,7 @@ io=r'C:\Users\Administrator\Desktop\data\S5\S5_train_data.xlsx'
 iris1 = pd.read_excel(io,header=None,sheet_name=0)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='B'
+iris1.loc[:,'label']=0
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_1_train_data.xlsx')#数据保存路径
 
@@ -16,7 +16,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_1_t
 iris1 = pd.read_excel(io,header=None,sheet_name=1)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='D'
+iris1.loc[:,'label']=1
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_2_train_data.xlsx')#数据保存路径
 
@@ -25,7 +25,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_2_t
 iris1 = pd.read_excel(io,header=None,sheet_name=2)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='G'
+iris1.loc[:,'label']=2
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_3_train_data.xlsx')#数据保存路径
 
@@ -34,7 +34,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_3_t
 iris1 = pd.read_excel(io,header=None,sheet_name=3)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='L'
+iris1.loc[:,'label']=3
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_4_train_data.xlsx')#数据保存路径
 
@@ -44,7 +44,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_4_t
 iris1 = pd.read_excel(io,header=None,sheet_name=4)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='O'
+iris1.loc[:,'label']=4
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_5_train_data.xlsx')#数据保存路径
 
@@ -53,7 +53,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_5_t
 iris1 = pd.read_excel(io,header=None,sheet_name=5)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='Q'
+iris1.loc[:,'label']=5
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_6_train_data.xlsx')#数据保存路径
 
@@ -62,7 +62,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_6_t
 iris1 = pd.read_excel(io,header=None,sheet_name=6)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='S'
+iris1.loc[:,'label']=6
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_7_train_data.xlsx')#数据保存路径
 
@@ -72,7 +72,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_7_t
 iris1 = pd.read_excel(io,header=None,sheet_name=1)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='V'
+iris1.loc[:,'label']=7
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_8_train_data.xlsx')#数据保存路径
 
@@ -82,7 +82,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_8_t
 iris1 = pd.read_excel(io,header=None,sheet_name=1)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='Z'
+iris1.loc[:,'label']=8
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_9_train_data.xlsx')#数据保存路径
 
@@ -92,7 +92,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_9_t
 iris1 = pd.read_excel(io,header=None,sheet_name=1)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='4'
+iris1.loc[:,'label']=9
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_10_train_data.xlsx')#数据保存路径
 
@@ -102,7 +102,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_10_
 iris1 = pd.read_excel(io,header=None,sheet_name=1)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='7'
+iris1.loc[:,'label']=10
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_11_train_data.xlsx')#数据保存路径
 
@@ -112,7 +112,7 @@ iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_11_
 iris1 = pd.read_excel(io,header=None,sheet_name=1)#读入数据文件关键中的关键：header=None
 
 
-iris1.loc[:,'label']='9'
+iris1.loc[:,'label']=11
 
 iris1.to_excel('C:\\Users\Administrator\Desktop\data\S5\\train_data_label\\5_12_train_data.xlsx')#数据保存路径
 
